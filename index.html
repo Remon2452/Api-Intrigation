@@ -1,0 +1,124 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-6</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2>English <span>বাংলা</span></h2>
+        </div>
+        <nav>
+            <a href="#faq" class="btn"> <img class="img1" src="assets/fa-circle-question.png" alt="">FAQ</a>
+            <a href="#lern" class="btn"><img class="img2" src="assets/fa-book-open.png" alt="">Learn</a>
+            <button class="btn logout"><img class="img3" src="assets/fa-arrow-right-from-bracket.png" alt="">Logout</button>
+        </nav>
+    </header>
+    
+    <section class="main-content">
+        <div class="text-content">
+            <h1><span class="highlight">English</span> is <b>Easy!!</b></h1>
+            <p>আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন! আপনি যদি নতুন হন অথবা আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ।</p>
+            <form>
+                <input type="text" placeholder="Enter Your Name">
+                <input type="password" placeholder="**********">
+                <button class="get-started">Get Started</button>
+            </form>
+        </div>
+        <div class="image-content">
+            <img src="assets/hero-student.png" alt="Smiling person">
+        </div>
+    </section>
+ 
+<section id="lern" class="vocabulary">
+    <h2><span class="highlight">Let's</span> Learn Vocabularies</h2>
+    <div class="lesson-buttons"></div>
+    <div class="lesson-select">
+        <p>একটি Lesson Select করুন।</p>
+    </div>
+  </section>
+  
+    <section id="faq" class="faq accordionblock">
+        <div class="container">
+          <h1 class="text-center">JavaScript FAQ</h1>
+          <div class="accordion-container">
+            <div class="accordion">
+              <button class="accordion-head" id="accordion-button-1" aria-controls="accordion-panel-1">
+                <span class="question">What is the difference between var, let, and const?</span>
+                <span class="icon">+</span>
+              </button>
+              <div class="accordion-content" id="accordion-panel-1" aria-labelledby="accordion-button-1">
+                <p>
+                  <code>var</code> is function-scoped and can be redeclared. <code>let</code> is block-scoped and cannot be redeclared in the same scope. <code>const</code> is also block-scoped but cannot be reassigned.
+                </p>
+              </div>
+            </div>
+            <div class="accordion">
+              <button class="accordion-head" id="accordion-button-2" aria-controls="accordion-panel-2">
+                <span class="question">What is the difference between map(), forEach(), and filter()?</span>
+                <span class="icon">+</span>
+              </button>
+              <div class="accordion-content" id="accordion-panel-2" aria-labelledby="accordion-button-2">
+                <p>
+                  <code>map()</code> returns a new array with transformed elements. <code>forEach()</code> iterates over elements but does not return a new array. <code>filter()</code> returns a new array with elements that pass a condition.
+                </p>
+              </div>
+            </div>
+            <div class="accordion">
+              <button class="accordion-head" id="accordion-button-3" aria-controls="accordion-panel-3">
+                <span class="question">How are arrow functions different from regular functions?</span>
+                <span class="icon">+</span>
+              </button>
+              <div class="accordion-content" id="accordion-panel-3" aria-labelledby="accordion-button-3">
+                <p>
+                  Arrow functions do not have their own <code>this</code> context; they inherit <code>this</code> from the surrounding scope. They also have a more concise syntax.
+                </p>
+              </div>
+            </div>
+            <div class="accordion">
+              <button class="accordion-head" id="accordion-button-4" aria-controls="accordion-panel-4">
+                <span class="question">How do JavaScript Promises work?</span>
+                <span class="icon">+</span>
+              </button>
+              <div class="accordion-content" id="accordion-panel-4" aria-labelledby="accordion-button-4">
+                <p>
+                  A Promise represents a value that may be available now, later, or never. It has three states: pending, resolved, or rejected, and supports chaining with <code>.then()</code> and error handling with <code>.catch()</code>.
+                </p>
+              </div>
+            </div>
+            <div class="accordion">
+              <button class="accordion-head" id="accordion-button-5" aria-controls="accordion-panel-5">
+                <span class="question">How do closures work in JavaScript?</span>
+                <span class="icon">+</span>
+              </button>
+              <div class="accordion-content" id="accordion-panel-5" aria-labelledby="accordion-button-5">
+                <p>
+                  A closure is a function that retains access to its outer scope even after the outer function has executed. This allows variables to persist in memory and enables data encapsulation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="branding">
+                <h3>English <span>বাংলা</span></h3>
+                <p>ইংরেজি শিক্ষার সহজ পথ</p>
+                <p>Providing Ed-Tech Applications since 2025</p>
+            </div>
+            <div class="social-links">
+                <p>FOLLOW US</p>
+                <a  href="#"> <img src="assets/fb-thumb.png" alt=""> Facebook</a>
+                <a href="#"> <img src="assets/instagram-thumb.png" alt=""> Instagram</a>
+                <a href="#"><img src="assets/youtube-thumb.png" alt=""> You tube</a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

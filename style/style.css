@@ -1,0 +1,233 @@
+and General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo h2 {
+    font-size: 24px;
+}
+
+.logo span {
+    color: blue;
+    font-weight: bold;
+}
+
+nav .btn {
+    margin-left: 15px;
+    padding: 8px 16px;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav .btn:hover {
+    background: #0056b3;
+}
+
+nav .logout {
+    background: red;
+}
+
+/* Main Content Styles */
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.text-content {
+    max-width: 500px;
+}
+
+.text-content h1 {
+    font-size: 32px;
+}
+
+.highlight {
+    color: blue;
+}
+
+.text-content p {
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.get-started {
+    background: #6200ea;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.get-started:hover {
+    background: #3700b3;
+}
+
+/* Image Section */
+.image-content img {
+    max-width: 300px;
+    border-radius: 50%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+
+.vocabulary {
+    padding: 50px 20px;
+    background: white;
+}
+
+.highlight {
+    color: blue;
+    font-weight: bold;
+}
+
+.lesson-buttons {
+    margin: 20px 0;
+}
+
+.lesson {
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid #007bff;
+    background: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.lesson:hover {
+    background: #007bff;
+    color: white;
+}
+
+.lesson-select {
+    padding: 20px;
+    background: #f1f1f1;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.img1{
+    justify-content: right;
+    gap: 10px;
+}
+.container { 
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  .text-center {
+    text-align: left;
+  }
+  .accordion-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .accordion {
+    border: 2px solid #F8F8F8;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .accordion-head {
+    background: #F8F8F8;
+    color: #18181B;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .accordion-content {
+    display: none;
+    padding: 10px;
+    background: #fff;
+  }
+  .accordion-head.__active {
+    background: #F8F8F8;
+  }
+  .question {
+    color: #18181B;
+  }
+  .icon {
+    color: #62748E;
+    font-size: 16px;
+  }
+
+footer {
+    padding: 20px;
+    background: #f1f1f1;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.branding {
+    text-align: left;
+}
+
+.social-links a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 5px 0;
+}
